@@ -63,28 +63,6 @@ a {
     text-decoration: none;
 }
 
-.nryt a {
-    margin: 0 3px;
-    text-decoration: none;
-    position: relative;
-    cursor: pointer;
-}
-
-.nryt a::after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 0%;
-    background-color: var(--mycol);
-    bottom: -5px;
-    left: 0%;
-    border-radius: 30px;
-    transition: all 0.4s ease;
-}
-
-.nryt a.active::after {
-    width: 90%;
-}
 
 
 
